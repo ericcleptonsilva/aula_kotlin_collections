@@ -10,20 +10,20 @@ fun main() {
     values[4] = 2
 
     for (valor in values){
-        print(valor)
+        println(valor)
 
     }
 
-    print("---")
-    values.forEach { valor -> print(valor)}
-    print("---")
+    println("---")
+    values.forEach { valor -> println(valor)}
+    println("---")
     for (index in values.indices){
-        print(values[index])
+        println(values[index])
     }
-    print("---")
+    println("---")
     values.sort()
     for (valor in values){
-        print(valor)
+        println(valor)
     }
 
 
